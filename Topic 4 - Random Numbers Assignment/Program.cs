@@ -23,6 +23,8 @@
             Console.WriteLine(Generator.Next(min, max));
             Console.WriteLine(Generator.Next(min, max));
             Console.WriteLine(Generator.Next(min, max));
+            Console.WriteLine();
+            Console.WriteLine("Press Enter to continue");
             Console.ReadLine();
             Console.Clear();
 
@@ -38,6 +40,8 @@
             Console.WriteLine(dice2);
             Console.WriteLine();
             Console.WriteLine($"The total of the numbers is: {dice1 + dice2}");
+            Console.WriteLine();
+            Console.WriteLine("Press Enter to continue");
             Console.ReadLine();
             Console.Clear();
 
